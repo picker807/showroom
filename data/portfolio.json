@@ -1,0 +1,57 @@
+{
+  "featuredProject": "foxfern-seeds",
+  "hireLdsListingUrl": "",
+  "projects": [
+    {
+      "id": "foxfern-seeds",
+      "title": "Foxfern Seeds",
+      "category": "Brand identity & packaging",
+      "summary": "A visual identity and seed packet system for an independent garden seed company.",
+      "image": {
+        "src": "./assets/foxfern-seeds.webp",
+        "alt": "Foxfern Seeds paper packets with botanical illustrations on a green display"
+      },
+      "brief": "Give an independent seed company an identity that stands out on a nursery rack. The packets needed to make plant varieties easy to spot and leave room for growing instructions.",
+      "approach": "I paired a fern mark with bold type and botanical illustrations. Variety names stay in the same place on every packet, while a color palette helps shoppers distinguish flowers, herbs, and vegetables. The back sets sowing depth, light needs, and spacing in a consistent order.",
+      "deliverables": [
+        "Wordmark, fern symbol, and brand color palette",
+        "Seed packet layouts and planting information panels",
+        "A short print and packaging style guide"
+      ]
+    },
+    {
+      "id": "a-city-in-season",
+      "title": "A City in Season",
+      "category": "Editorial design",
+      "summary": "A photo book that gives familiar city streets a slower pace.",
+      "image": {
+        "src": "./assets/a-city-in-season.webp",
+        "alt": "A dusty-blue book titled A City in Season beside an open spread with a black-and-white street photograph"
+      },
+      "brief": "Shape a collection of street photographs and short essays into a book that feels like walking through the same neighborhood across four seasons.",
+      "approach": "I used a six-column grid so small details and full-page photographs could feel part of the same book. Chapter openings give each season room to breathe, while captions and page numbers sit in consistent places so the sequence is easy to follow.",
+      "deliverables": [
+        "Cover and interior layout",
+        "Typography, captions, and section openers",
+        "Print-ready artwork and a digital viewing PDF"
+      ]
+    },
+    {
+      "id": "form-and-fold",
+      "title": "Form & Fold",
+      "category": "Website design",
+      "summary": "A small studio site that puts handmade ceramics front and center.",
+      "image": {
+        "src": "./assets/form-and-fold.webp",
+        "alt": "Handmade ceramic vessels and a Form & Fold studio card in soft window light"
+      },
+      "brief": "Design a site for a ceramics studio that gives wholesale buyers a clear overview of the collection and helps visitors learn about the maker.",
+      "approach": "I designed the collection around photographs that show each piece at the same scale. A short product description keeps dimensions and materials close at hand, and an inquiry route gives buyers one clear place to start a conversation.",
+      "deliverables": [
+        "Responsive home, collection, and maker page designs",
+        "Reusable product card and type styles",
+        "Image crop and handoff guidance for new collections"
+      ]
+    }
+  ]
+}

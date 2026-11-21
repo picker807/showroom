@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore a sample portfolio for an independent designer and see what your own HireLDS portfolio could look like.">
+  <meta name="theme-color" content="#f8f7f2">
+  <title>Portfolio Showroom | Nora Mercer</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script src="./assets/showroom.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <aside class="demo-bar" aria-label="Showroom information">
+    <div class="wrap demo-bar__inner">
+      <span><strong>Portfolio Showroom</strong><span class="demo-bar__note">Fictional sample</span></span>
+      <a href="#service">About the $1 service</a>
+    </div>
+  </aside>
+
+  <header class="wrap masthead">
+    <a class="wordmark" href="./" aria-label="Nora Mercer home">nora mercer<span>.</span></a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="eyebrow">Independent graphic designer</p>
+        <h1 id="hero-title">Design with<br><em>character.</em></h1>
+        <p class="hero__intro">I’m Nora Mercer. I build visual identities, publications, and websites for small businesses and independent makers.</p>
+        <a class="button button--dark" href="#work">Explore selected work</a>
+      </div>
+
+      <figure class="hero__feature" id="featured" hidden>
+        <a class="feature-link image-frame" data-feature-link>
+          <img data-feature-image fetchpriority="high" width="1200" height="900" alt="">
+        </a>
+        <figcaption class="feature-caption">
+          <span class="feature-label">Featured project</span>
+          <a data-feature-link data-feature-title></a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="wrap work" id="work" aria-labelledby="work-title">
+      <header class="section-heading">
+        <h2 id="work-title" tabindex="-1">Selected work<span>.</span></h2>
+        <p>Projects in branding, editorial design, and websites.</p>
+      </header>
+      <div class="project-grid" id="projects"></div>
+      <p id="project-status" role="status" hidden></p>
+      <noscript><p>Enable JavaScript to browse the sample project case studies.</p></noscript>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="wrap about__inner">
+        <img class="about__image" src="./assets/nora-studio.webp" width="960" height="720" loading="lazy" decoding="async" alt="Nora arranging printed layouts at her studio table">
+        <div class="about__copy">
+          <p class="eyebrow">About Nora</p>
+          <h2 id="about-title">From first sketch <em>to final detail.</em></h2>
+          <p>I’m an independent designer who enjoys the parts of a project that are easy to overlook, from how a label reads across a room to how a page feels when you turn it.</p>
+          <p>I work with small teams and makers to give their work a visual identity they can use in print, on a shelf, and online.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service" aria-labelledby="service-title">
+      <div class="wrap service__inner">
+        <div class="service__headline">
+          <p class="eyebrow">The HireLDS portfolio service</p>
+          <h2 id="service-title">A portfolio for <em>your work.</em></h2>
+        </div>
+        <div class="service__body">
+          <p>This showroom uses a fictional designer’s work. For <strong>$1</strong>, I’ll build a portfolio site around your projects, images, and experience.</p>
+          <p>You’ll own your site and its GitHub repository. Ongoing updates and maintenance are separate.</p>
+          <p id="listing-fallback">Find my portfolio website service on HireLDS to get started.</p>
+          <a class="button button--light" id="listing-link" hidden>View my HireLDS listing</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span><strong>Portfolio Showroom</strong> · An example by Aaron</span>
+    <a href="#main">Back to top</a>
+  </footer>
+
+  <template id="project-card">
+    <article class="project-card">
+      <a class="project-card__link" data-project-link>
+        <div class="image-frame project-card__image"><img loading="lazy" decoding="async" width="960" height="720" alt=""></div>
+        <p class="project-card__category" data-category></p>
+        <h3 data-title></h3>
+      </a>
+      <p class="project-card__summary" data-summary></p>
+    </article>
+  </template>
+
+  <dialog class="case-study" id="case-study" aria-labelledby="case-title">
+    <div class="case-study__body">
+      <div class="case-study__toolbar">
+        <span>Project case study</span>
+        <button type="button" id="close-case">Close<span aria-hidden="true"> ×</span></button>
+      </div>
+      <article class="case-study__article">
+        <header>
+          <p id="case-category" class="eyebrow"></p>
+          <h2 id="case-title" tabindex="-1"></h2>
+          <p id="case-summary" class="case-study__summary"></p>
+        </header>
+        <img id="case-image" width="1200" height="900" alt="">
+        <div class="case-study__details">
+          <section>
+            <h3>The brief</h3>
+            <p id="case-brief"></p>
+          </section>
+          <section>
+            <h3>The approach</h3>
+            <p id="case-approach"></p>
+          </section>
+          <section>
+            <h3>What I delivered</h3>
+            <ul id="case-deliverables"></ul>
+          </section>
+        </div>
+        <a class="button button--dark" id="next-case"></a>
+      </article>
+    </div>
+  </dialog>
+</body>
+</html>
