@@ -1,6 +1,6 @@
 # Portfolio Showroom
 
-A fictional portfolio for independent designer Nora Mercer, built as a customer-facing demo for Aaron’s $1 HireLDS portfolio service. Nora and her projects are fictional, and the images were generated for the demo. The site uses plain HTML, CSS, JavaScript, and JSON. It needs no packages or build command.
+A fictional portfolio for independent designer Nora Mercer, built as a customer-facing demo for Aaron’s $15 HireLDS portfolio service. Nora and her projects are fictional, and the images were generated for the demo. The site uses plain HTML, CSS, JavaScript, and JSON. It needs no packages or build command.
 
 ## Preview locally
 
